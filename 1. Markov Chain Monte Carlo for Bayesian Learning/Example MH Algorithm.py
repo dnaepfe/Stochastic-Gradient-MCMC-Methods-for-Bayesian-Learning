@@ -4,7 +4,7 @@ from scipy.stats import beta
 
 
 """
-We want to model the number of heads of a (possibly) fair coin toss. We 
+We want to model the number of heads of a (possibly) fair coin toss. Here we 
 assume a binomial distribution for the likelihood and a beta distribution with
 parameters r,s=2 as a prior. Assume we observed x=7 heads out of n=10 trials.
 Using the Metropolis-Hasting algorithm, we derive a sample of the posterior 

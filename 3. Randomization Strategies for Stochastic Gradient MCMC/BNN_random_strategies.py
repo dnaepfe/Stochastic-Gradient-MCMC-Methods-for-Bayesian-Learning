@@ -11,6 +11,12 @@ from torchvision import datasets
 from torch.utils.data import DataLoader
 from torchvision.transforms import ToTensor
 
+""" 
+This is an extended implementation of the Bayesian neural network model for 
+classification of the MNIST handwritten digits dataset we used before. Here we 
+use different randomization strategies (RR and RM) for generating the posterior
+sample with SGLD and compare them on different metrics. 
+"""
 
 torch.manual_seed(42)
 random.seed(42)

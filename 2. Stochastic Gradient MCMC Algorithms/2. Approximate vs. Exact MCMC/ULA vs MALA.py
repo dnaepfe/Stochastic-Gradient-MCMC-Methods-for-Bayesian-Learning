@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 """
 This is an implementation of the example where we want to compare the ULA and MALA schemes for 
-a Gaussian posterior distribution.
+a Gaussian posterior distribution with using the Wasserstein-2 distance.
 """
 
 rng = np.random.default_rng(42)

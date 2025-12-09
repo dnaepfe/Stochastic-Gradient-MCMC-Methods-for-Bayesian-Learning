@@ -13,7 +13,7 @@ from torchvision.transforms import ToTensor
 """ 
 This is an implementation of a Bayesian neural network model for 
 classification of the MNIST handwritten digits dataset and using 
-different SGMCMC schemes to compare the predictive accuracy. 
+SGLD to compare the predictive accuracy and quantify uncertainty. 
 """
 
 torch.manual_seed(42)
